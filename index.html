@@ -3,6 +3,19 @@
   <head>
     <title>Google Music Desktop</title>
     <style>
+      /* Make page full height for full height elements */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* No iframe borders please */
+      iframe {
+        border: 0;
+      }
+
+      /* Take up majority of screen with Google Music */
       #google-music {
         width: 100%;
         height: 100%;
@@ -10,7 +23,6 @@
     </style>
   </head>
   <body>
-    <h1>Hello World</h1>
     <iframe id="google-music" src="https://play.google.com/music">
       You don't support iframes. Something is seriously wrong. Pleas open an issue.
     </iframe>
