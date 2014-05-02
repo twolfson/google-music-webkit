@@ -4,6 +4,12 @@ var gui = require('nw.gui');
 // Generate a window for Google Music
 var win = gui.Window.get(window.open('https://play.google.com/music'));
 
+// TODO: Create class for managing application state that emits events
+// TODO: Set up `tray.tooltip` to update on song change
+// TODO: Add methods for play/pause/forward/next/shuffle/repeat that we can bind to menus and media keys
+// TODO: Fill out package.json in full
+// TODO: Add tray menu for all methods we want
+
 // Set up minification
 // Modified from https://github.com/rogerwang/node-webkit/wiki/Minimize-to-tray
 
