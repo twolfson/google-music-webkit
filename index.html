@@ -2,29 +2,8 @@
 <html>
   <head>
     <title>Google Music Desktop</title>
-    <!-- Set up page styles -->
-    <style>
-      /* Make page full height for full height elements */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
-      /* No iframe borders please */
-      iframe {
-        border: 0;
-      }
-
-      /* Take up majority of screen with Google Music */
-      #google-music {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
     <!-- Set up minimize to tray functionality -->
     <script>
-    console.log(process);
       (function bindMinification () {
         // Modifiend from https://github.com/rogerwang/node-webkit/wiki/Minimize-to-tray
         // Load library
@@ -32,13 +11,13 @@
 
         // Create our tray icon
         // DEV: Icon via http://lorempixel.com/32/32/abstract/3/
-        var win = gui.Window.get();
+        var win = gui.Window.get(window.open('https://play.google.com/music'));
         var tray = new gui.Tray({icon: 'icon.png'});
 
         // When the tray icon is clicked, show the window
         // TODO: Should be a toggle
         tray.on('click', function maximizeFromTray () {
-          console.log('clicked');
+          win.restore();
         });
 
         // When we minimize our window, hide it
@@ -49,8 +28,6 @@
     </script>
   </head>
   <body>
-    <iframe id="google-music" src="https://play.google.com/music">
-      You don't support iframes. Something is seriously wrong. Pleas open an issue.
-    </iframe>
+    <h1>Nothing to see here</h1>
   </body>
 </html>
