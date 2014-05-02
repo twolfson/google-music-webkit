@@ -34,10 +34,12 @@
         var win = gui.Window.get();
         var tray = new gui.Tray({icon: 'icon.jpeg'});
 
+        win.restore();
+
         // When the tray icon is clicked, show the window
         // TODO: Should be a toggle
         tray.on('click', function maximizeFromTray () {
-          win.restore();
+          console.log('clicked');
         });
 
         // When we minimize our window, hide it
