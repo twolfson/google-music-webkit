@@ -2,32 +2,10 @@
 <html>
   <head>
     <title>Google Music Desktop</title>
-    <!-- Set up minimize to tray functionality -->
-    <script>
-      (function bindMinification () {
-        // Modifiend from https://github.com/rogerwang/node-webkit/wiki/Minimize-to-tray
-        // Load library
-        var gui = require('nw.gui');
-
-        // Create our tray icon
-        // DEV: Icon via http://lorempixel.com/32/32/abstract/3/
-        var win = gui.Window.get(window.open('https://play.google.com/music'));
-        var tray = new gui.Tray({icon: 'icon.png'});
-
-        // When the tray icon is clicked, show the window
-        // TODO: Should be a toggle
-        tray.on('click', function maximizeFromTray () {
-          win.restore();
-        });
-
-        // When we minimize our window, hide it
-        win.on('minimize', function minimizeToTray () {
-          win.minimize();
-        });
-      }());
-    </script>
+    <!-- See `index.js` for the meat of the application -->
+    <script src="index.js"></script>
   </head>
   <body>
-    <h1>Nothing to see here</h1>
+    <h1>This window should not open by default.</h1>
   </body>
 </html>
