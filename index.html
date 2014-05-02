@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Google Music Desktop</title>
+    <!-- Set up page styles -->
     <style>
       /* Make page full height for full height elements */
       html, body {
@@ -21,6 +22,34 @@
         height: 100%;
       }
     </style>
+    <!-- Set up minimize to tray functionality -->
+    <script>
+      (function bindMinification () {
+        // Modifiend from https://github.com/rogerwang/node-webkit/wiki/Minimize-to-tray
+        // Load library
+        var gui = require('nw.gui');
+
+        // Reference to window and tray
+        var win = gui.Window.get();
+        var tray;
+
+        // Get the minimize event
+        win.on('minimize', function minimizeToTray () {
+          // Hide window
+          this.hide();
+
+          // Show tray
+          tray = new gui.Tray({icon: 'icon.png'});
+
+          // Show window and remove tray when clicked
+          tray.on('click', function maximizeFromTray () {
+            win.show();
+            this.remove();
+            tray = null;
+          });
+        });
+      }());
+    </script>
   </head>
   <body>
     <iframe id="google-music" src="https://play.google.com/music">
