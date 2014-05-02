@@ -1,4 +1,7 @@
 {
   "name": "gist-google-music-desktop",
-  "main": "index.html"
+  "main": "index.html",
+  "webkit": {
+    "plugin": true
+  }
 }
