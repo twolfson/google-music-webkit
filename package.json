@@ -1,7 +1,7 @@
 {
   "name": "google-music-webkit",
   "description": "Google Music desktop client via node-webkit",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/twolfson/google-music-webkit",
   "author": {
     "name": "Todd Wolfson",
@@ -21,24 +21,18 @@
       "url": "https://github.com/twolfson/google-music-webkit/blob/master/UNLICENSE"
     }
   ],
-  "main": "lib/google-music-webkit",
-  "engines": {
-    "node": ">= 0.8.0"
+  "main": "index.html",
+  "window": {
+    "show": false
   },
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "~1.11.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-watch": "~0.4.0"
+  "webkit": {
+    "plugin": true
   },
   "keywords": [
     "google",
     "music",
     "desktop",
     "webkit"
-  ]
+  ],
+  "private": true
 }
