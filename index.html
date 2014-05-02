@@ -37,12 +37,12 @@
         // When the tray icon is clicked, show the window
         // TODO: Should be a toggle
         tray.on('click', function maximizeFromTray () {
-          win.show();
+          win.restore();
         });
 
         // When we minimize our window, hide it
         win.on('minimize', function minimizeToTray () {
-          win.hide();
+          win.minimize();
         });
       }());
     </script>
