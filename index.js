@@ -4,6 +4,7 @@ var gui = require('nw.gui');
 // Generate a window for Google Music
 var win = gui.Window.get(window.open('https://play.google.com/music'));
 
+// TODO: Once full-formed, break out class as a node module so it can be reused in browsers with no penalty
 // TODO: Create class for managing application state that emits events
 // TODO: Set up `tray.tooltip` to update on song change
 // TODO: Add methods for play/pause/forward/next/shuffle/repeat that we can bind to menus and media keys
