@@ -21,7 +21,7 @@
       "url": "https://github.com/twolfson/google-music-webkit/blob/master/UNLICENSE"
     }
   ],
-  "main": "index.html",
+  "main": "lib/index.html",
   "window": {
     "show": false
   },
