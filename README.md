@@ -27,8 +27,13 @@ Support this project and [others by twolfson][gittip] via [gittip][].
 [gittip-badge]: https://rawgithub.com/twolfson/gittip-badge/master/dist/gittip.png
 [gittip]: https://www.gittip.com/twolfson/
 
+## Attribution
+Headphones designed by Jake Dunham from [the Noun Project][headphones-icon]
+
+[headphones-icon]: http://thenounproject.com/term/headphones/16097/
+
 ## Unlicense
-As of May 02 2014, Todd Wolfson has released this repository and its contents to the public domain.
+As of May 02 2014, Todd Wolfson has released this repository and its contents to the public domain, excluding that which has been attributed to other sources.
 
 It has been released under the [UNLICENSE][].
 
