@@ -1,4 +1,6 @@
 # google-music-desktop
+0.4.0 - Added Play/Pause functionality to tray menu
+
 0.3.0 - Added new icon via the Noun Project
 
 0.2.0 - Loading Google Music without an iframe
