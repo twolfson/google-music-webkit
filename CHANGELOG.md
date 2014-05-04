@@ -1,4 +1,6 @@
 # google-music-desktop
+0.6.0 - Added toggle visibility via tray icon
+
 0.5.0 - Removed taskbar visibility (dock only) and close app on window close
 
 0.4.0 - Added Play/Pause functionality to tray menu
