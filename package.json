@@ -35,5 +35,10 @@
     "desktop",
     "webkit"
   ],
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.4",
+    "grunt-node-webkit-builder": "~0.1.21"
+  }
 }
