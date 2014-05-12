@@ -1,4 +1,6 @@
 # google-music-desktop
+0.8.0 - Moved to using part of `google-music-mac` and added tooltip support
+
 0.7.0 - Added quit tray action, Google Music load detection, and relocated GoogleMusic to separate file
 
 0.6.0 - Added toggle visibility via tray icon
