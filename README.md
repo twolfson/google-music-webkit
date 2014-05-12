@@ -1,20 +1,31 @@
 # google-music-webkit [![Build status](https://travis-ci.org/twolfson/google-music-webkit.png?branch=master)](https://travis-ci.org/twolfson/google-music-webkit)
 
-Google Music desktop client via node-webkit
+[Google Music][] desktop client via [node-webkit][]
+
+**Features:**
+
+- Google Music as a standalone application
+- Tray for quick play/pause/quit and tooltip with information
+
+![Screenshot](docs/screenshot.png)
+
+[Google Music]: http://music.google.com/
+[node-webkit]: https://github.com/rogerwang/node-webkit
+
+## Requirements
+- [node-webkit@0.9.2][node-webkit] or greater
 
 ## Getting Started
 Install the module with: `npm install google-music-webkit`
 
-```javascript
+```js
 var google_music_webkit = require('google-music-webkit');
 google_music_webkit.awesome(); // "awesome"
 ```
 
-## Documentation
-_(Coming soon)_
+When the application has launched, it can be shown/hidden via its tray icon, ![tray icon](lib/icon.png).
 
-## Examples
-_(Coming soon)_
+![Screenshot](docs/screenshot.png)
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
