@@ -35,5 +35,8 @@
     "desktop",
     "webkit"
   ],
-  "private": true
+  "private": true,
+  "dependencies": {
+    "obj-extend": "~0.1.0"
+  }
 }
