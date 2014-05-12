@@ -32,6 +32,10 @@ Headphones designed by Jake Dunham from [the Noun Project][headphones-icon]
 
 [headphones-icon]: http://thenounproject.com/term/headphones/16097/
 
+Modified `google-music-mac` source code from https://github.com/kbhomes/google-music-mac under [MIT license][google-music-mac-license].
+
+[google-music-mac-license]: https://github.com/kbhomes/google-music-mac/tree/v1.1.3
+
 ## Unlicense
 As of May 02 2014, Todd Wolfson has released this repository and its contents to the public domain, excluding that which has been attributed to other sources.
 
