@@ -1,4 +1,6 @@
 # google-music-desktop
+0.9.0 - Updated icon and completed README
+
 0.8.1 - Fixed bad path
 
 0.8.0 - Moved to using part of `google-music-mac` and added tooltip support
