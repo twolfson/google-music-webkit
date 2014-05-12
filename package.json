@@ -23,6 +23,7 @@
   ],
   "main": "lib/index.html",
   "window": {
+    "show": false,
     "show_in_taskbar": false
   },
   "webkit": {
