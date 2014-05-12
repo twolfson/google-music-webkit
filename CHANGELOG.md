@@ -1,4 +1,6 @@
 # google-music-desktop
+0.7.0 - Added quit tray action, Google Music load detection, and relocated GoogleMusic to separate file
+
 0.6.0 - Added toggle visibility via tray icon
 
 0.5.0 - Removed taskbar visibility (dock only) and close app on window close
