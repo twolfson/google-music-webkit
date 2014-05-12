@@ -1,4 +1,4 @@
-# google-music-webkit [![Build status](https://travis-ci.org/twolfson/google-music-webkit.png?branch=master)](https://travis-ci.org/twolfson/google-music-webkit)
+# google-music-webkit
 
 [Google Music][] desktop client via [node-webkit][]
 
@@ -14,18 +14,41 @@
 
 ## Requirements
 - [node-webkit@0.9.2][node-webkit] or greater
+- [npm][], usually installed with [node][]
+- [Adobe Flash][], see http://music.google.com/ for dependency information
+
+[npm]: http://npmjs.org/
+[node]: http://nodejs.org/
+[Adobe Flash]: http://get.adobe.com/flashplayer/
 
 ## Getting Started
-Install the module with: `npm install google-music-webkit`
+In a shell, run the following commands:
 
-```js
-var google_music_webkit = require('google-music-webkit');
-google_music_webkit.awesome(); // "awesome"
+```bash
+# Clone the repository
+git clone https://github.com/twolfson/google-music-webkit
+cd google-music-webkit
+
+# Install node modules
+npm install
+# npm http GET https://registry.npmjs.org/obj-extend
+# npm http 304 https://registry.npmjs.org/obj-extend
+# obj-extend@0.1.0 node_modules/obj-extend
+
+# Start the application via `node-webkit`
+nw .
 ```
 
 When the application has launched, it can be shown/hidden via its tray icon, ![tray icon](lib/icon.png).
 
 ![Screenshot](docs/screenshot.png)
+
+#### Running without a terminal
+For running `google-music-webkit` without a terminal, start via `screen`. Once it has launched, the terminal can be closed without exiting the application.
+
+```bash
+screen nw .
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
