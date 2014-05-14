@@ -1,4 +1,6 @@
 # google-music-desktop
+0.10.0 - Added buttons for previous, next, and toggle visibility
+
 0.9.0 - Updated icon and completed README
 
 0.8.1 - Fixed bad path
