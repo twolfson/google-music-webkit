@@ -37,6 +37,7 @@
   ],
   "private": true,
   "dependencies": {
-    "obj-extend": "~0.1.0"
+    "obj-extend": "~0.1.0",
+    "forward-events": "0.0.1"
   }
 }
