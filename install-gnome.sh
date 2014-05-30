@@ -10,8 +10,9 @@ else
   echo "Google Music Webkit already symlinked to /usr/local/lib. Continuing with next steps..." 1>&2
 fi
 
-# TODO: Overwrite existing desktop
-cat <<EOF
+# Overwrite existing Google Music Webkit application
+mkdir -p ~/.local/share/applications
+cat > ~/.local/share/applications/google-music-webkit.desktop <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
