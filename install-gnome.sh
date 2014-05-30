@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Set up target directory
 install_dir="/usr/local/lib/google-music-webkit"
 
