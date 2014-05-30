@@ -25,4 +25,5 @@ Name=Google Music Webkit
 Comment=Open Google Music Webkit
 EOF
 
-# TODO: Notify user of completion
+# Notify user of completion
+echo "Google Music Webkit successfully installed!"
