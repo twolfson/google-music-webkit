@@ -1,4 +1,6 @@
 # google-music-desktop
+0.12.0 - Added `./install-gnome.sh` for easier relaunching outside of development
+
 0.11.0 - Introduced application level state for interacting between tray/application as classes
 
 0.10.0 - Added buttons for previous, next, and toggle visibility
