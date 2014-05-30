@@ -51,7 +51,7 @@ screen nw .
 ```
 
 ##### Gnome installation
-If you are on Gnome or Cinnamon, you can alternatively use `./install-gnome.sh` to add the application to your menu.
+If you are on Gnome/Cinnamon, you can use `./install-gnome.sh` to add the application to your menu.
 
 ```bash
 ./install-gnome.sh
