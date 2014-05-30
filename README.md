@@ -55,7 +55,7 @@ If you are on Gnome or Cinnamon, you can alternatively use `./install-gnome.sh` 
 
 ```bash
 ./install-gnome.sh
-Google Music Webkit successfully installed!
+# Google Music Webkit successfully installed!
 ```
 
 ## Contributing
