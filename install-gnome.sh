@@ -11,8 +11,9 @@ else
 fi
 
 # Overwrite existing Google Music Webkit application
-mkdir -p ~/.local/share/applications
-cat > ~/.local/share/applications/google-music-webkit.desktop <<EOF
+applications_dir="$HOME/.local/share/applications"
+mkdir -p "$applications_dir"
+cat > "$applications_dir/google-music-webkit.desktop" <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
