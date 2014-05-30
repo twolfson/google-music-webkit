@@ -17,10 +17,10 @@ cat > ~/.local/share/applications/google-music-webkit.desktop <<EOF
 Version=1.0
 Type=Application
 Terminal=false
-Exec=nw /usr/local/lib/google-music-webkit/
-Icon[en_US]=/usr/local/lib/google-music-webkit/lib/icon.png
+Exec=nw $install_dir/
+Icon[en_US]=$install_dir/lib/icon.png
 Name[en_US]=Google Music Webkit
-Icon=/usr/local/lib/google-music-webkit/lib/icon.png
+Icon=$install_dir/lib/icon.png
 Name=Google Music Webkit
 Comment=Open Google Music Webkit
 EOF
