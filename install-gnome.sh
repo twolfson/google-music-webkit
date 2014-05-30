@@ -1,6 +1,16 @@
-sudo ln -s "$PWD" /usr/lib/google-music-webkit
+# Set up target directory
+install_dir="/usr/local/lib/google-music-webkit"
 
-<<EOF
+# If we are not installed via symlink, do so
+if ! test -d "$install_dir"; then
+  sudo ln -s "$PWD" "$install_dir"
+# Otherwise, inform the user of the status
+else
+  echo "Google Music Webkit already symlinked to /usr/local/lib. Continuing with next steps..." 1>&2
+fi
+
+# TODO: Overwrite existing desktop
+cat <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
@@ -12,3 +22,5 @@ Icon=/usr/local/lib/google-music-webkit/lib/icon.png
 Name=Google Music Webkit
 Comment=Open Google Music Webkit
 EOF
+
+# TODO: Notify user of completion
