@@ -1,7 +1,7 @@
 {
   "name": "google-music-webkit",
   "description": "Google Music desktop client via node-webkit",
-  "version": "0.13.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/twolfson/google-music-webkit",
   "author": {
     "name": "Todd Wolfson",

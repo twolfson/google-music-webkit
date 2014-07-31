@@ -1,4 +1,6 @@
 # google-music-desktop
+1.0.0 - Upgraded to `node-webkit@0.10.1` and added media key shortcuts
+
 0.13.0 - Moved to using saving Google Music instance to `googleWindow` to force re-instantiation on refresh. Fixes #1
 
 0.12.0 - Added `./install-gnome.sh` for easier relaunching outside of development
