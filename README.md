@@ -6,6 +6,7 @@
 
 - Google Music as a standalone application
 - Tray for quick play/pause/quit and tooltip with information
+- Media key shortcuts
 
 ![Screenshot](docs/screenshot.png)
 
@@ -13,7 +14,7 @@
 [node-webkit]: https://github.com/rogerwang/node-webkit
 
 ## Requirements
-- [node-webkit@0.9.2][node-webkit] or greater
+- [node-webkit@0.10.1][node-webkit] or greater
 - [npm][], usually installed with [node][]
 - [Adobe Flash][], see http://music.google.com/ for dependency information
 
