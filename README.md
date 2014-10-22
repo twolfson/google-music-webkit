@@ -59,6 +59,18 @@ If you are on Gnome/Cinnamon, you can use `./install-gnome.sh` to add the applic
 # Google Music Webkit successfully installed!
 ```
 
+## Documentation
+### Icons
+Source images are kept in the `resources/` folder. Icons are maintained via Inkscape and the `play/pause` buttons are isolated in layers.
+
+To generate icons:
+
+1. Export each of the play/pause/clean variants as a `.svg` file
+2. Load the icons via GIMP as a 32x32 SVG
+3. Export via GIMP as a `.png`
+
+At the time of writing, Inkscape and Image Magick seemed to be generating non-transparent backgrounds upon converting SVG to PNG.
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via [grunt](https://github.com/gruntjs/grunt) and test via `npm test`.
 
