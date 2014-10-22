@@ -85,14 +85,14 @@
      sodipodi:rx="20.74468"
      sodipodi:ry="20.74468"
      d="m -4.2553196,43.203308 a 20.74468,20.74468 0 1 1 -41.4893604,0 20.74468,20.74468 0 1 1 41.4893604,0 z"
-     transform="matrix(1.3003001,0,0,1.3003001,102.68673,14.356566)" /></g><g
+     transform="matrix(1.1917413,0,0,1.1917413,102.4419,21.515802)" /></g><g
    inkscape:groupmode="layer"
    id="layer3"
    inkscape:label="Pause icon"
    style="display:inline"><g
      style="display:inline"
      id="g3794"
-     transform="matrix(0.91665989,0,0,0.91665989,91.866715,32.000774)"><rect
+     transform="matrix(0.84013023,0,0,0.84013023,92.525216,37.686939)"><rect
        ry="4.3735223"
        y="21.985815"
        x="-19.177301"
@@ -125,6 +125,6 @@
      inkscape:rounded="0"
      inkscape:randomized="0"
      d="m -33.120722,7.9199705 -8.516368,4.9169275 -8.516369,4.916928 0,-9.8338558 0,-9.8338549 8.516369,4.9169278 z"
-     inkscape:transform-center-x="-4.7090561"
-     transform="matrix(1.6588263,0,0,1.6588263,144.50147,56.970831)" /></g>
+     inkscape:transform-center-x="-4.3159128"
+     transform="matrix(1.520335,0,0,1.520335,140.76563,60.572308)" /></g>
 </svg>
