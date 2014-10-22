@@ -43,13 +43,13 @@
    inkscape:window-height="1030"
    id="namedview3063"
    showgrid="false"
-   inkscape:zoom="7.3523"
-   inkscape:cx="38.837441"
-   inkscape:cy="49.936052"
+   inkscape:zoom="2.43"
+   inkscape:cx="36.926278"
+   inkscape:cy="49.926592"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="layer3" />
+   inkscape:current-layer="layer5" />
 <g
    inkscape:groupmode="layer"
    id="layer4"
@@ -89,7 +89,7 @@
    inkscape:groupmode="layer"
    id="layer3"
    inkscape:label="Pause icon"
-   style="display:inline"><g
+   style="display:none"><g
      style="display:inline"
      id="g3794"
      transform="matrix(0.45110449,0,0,0.45110449,95.872599,66.591612)"><rect
@@ -106,5 +106,25 @@
        height="39.834511"
        width="8.0378237"
        id="rect2985-9"
-       style="fill:#000000;fill-opacity:1" /></g></g>
+       style="fill:#000000;fill-opacity:1" /></g></g><g
+   inkscape:groupmode="layer"
+   id="layer5"
+   inkscape:label="Play icon"
+   style="display:inline"><path
+     sodipodi:type="star"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     id="path3772"
+     sodipodi:sides="3"
+     sodipodi:cx="-44.47588"
+     sodipodi:cy="7.9199705"
+     sodipodi:r1="11.355158"
+     sodipodi:r2="5.6775789"
+     sodipodi:arg1="0"
+     sodipodi:arg2="1.0471976"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m -33.120722,7.9199705 -8.516368,4.9169275 -8.516369,4.916928 0,-9.8338558 0,-9.8338549 8.516369,4.9169278 z"
+     inkscape:transform-center-x="-2.3174109"
+     transform="matrix(0.81633763,0,0,0.81633763,121.77509,78.879817)" /></g>
 </svg>
