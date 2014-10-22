@@ -1,4 +1,6 @@
 # google-music-desktop
+1.2.0 - Removed playing/stopped info in tray menu. Added playing/paused icons to tray icon
+
 1.1.0 - Added playing/stopped information to tray menu
 
 1.0.0 - Upgraded to `node-webkit@0.10.1` and added media key shortcuts
