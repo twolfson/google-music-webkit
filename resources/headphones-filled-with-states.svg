@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -17,14 +18,19 @@
    enable-background="new 0 0 100 100"
    xml:space="preserve"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="icon_16097.filled.svg"
+   sodipodi:docname="headphones-filled-paused.svg"
    inkscape:export-filename="/home/todd/Downloads/icon_16097/icon_16097.32.png"
    inkscape:export-xdpi="28.799999"
    inkscape:export-ydpi="28.799999"><metadata
    id="metadata3067"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs3065" /><sodipodi:namedview
+   id="defs3065"><linearGradient
+     id="linearGradient3800"
+     osb:paint="solid"><stop
+       style="stop-color:#000000;stop-opacity:1;"
+       offset="0"
+       id="stop3802" /></linearGradient></defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -37,15 +43,20 @@
    inkscape:window-height="1030"
    id="namedview3063"
    showgrid="false"
-   inkscape:zoom="8.46"
-   inkscape:cx="50"
-   inkscape:cy="50"
+   inkscape:zoom="2.43"
+   inkscape:cx="36.926278"
+   inkscape:cy="49.926592"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g3055" />
+   inkscape:current-layer="layer5" />
 <g
-   id="g3055">
+   inkscape:groupmode="layer"
+   id="layer4"
+   inkscape:label="Headphones" /><g
+   id="g3055"
+   style="display:inline"
+   inkscape:label="Headphones kitchen sink">
 	<path
    d="m 35.859,58.497 -5.13,0 c -1.652,0 -3.003,1.373 -3.003,3.053 l 0,35.397 c 0,1.68 1.352,3.053 3.003,3.053 l 5.13,0 c 1.652,0 3.003,-1.373 3.003,-3.053 l 0,-35.397 c 0,-1.68 -1.351,-3.053 -3.003,-3.053 z"
    id="path3057"
@@ -61,5 +72,59 @@
    id="path3061"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="ccccccssccccccccccccccccccccccsscccccccccccccccccccccccccccccccccccccc" />
-</g>
+</g><g
+   inkscape:groupmode="layer"
+   id="layer2"
+   inkscape:label="Play/pause circle"
+   style="display:inline"><path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+     id="path3798"
+     sodipodi:cx="-25"
+     sodipodi:cy="43.203308"
+     sodipodi:rx="20.74468"
+     sodipodi:ry="20.74468"
+     d="m -4.2553196,43.203308 a 20.74468,20.74468 0 1 1 -41.4893604,0 20.74468,20.74468 0 1 1 41.4893604,0 z"
+     transform="matrix(0.63990062,0,0,0.63990062,101.19732,57.908586)" /></g><g
+   inkscape:groupmode="layer"
+   id="layer3"
+   inkscape:label="Pause icon"
+   style="display:none"><g
+     style="display:inline"
+     id="g3794"
+     transform="matrix(0.45110449,0,0,0.45110449,95.872599,66.591612)"><rect
+       ry="4.3735223"
+       y="21.985815"
+       x="-19.177301"
+       height="39.834511"
+       width="8.0378237"
+       id="rect2985"
+       style="fill:#000000;fill-opacity:1" /><rect
+       ry="4.3735223"
+       y="21.985489"
+       x="-35.815601"
+       height="39.834511"
+       width="8.0378237"
+       id="rect2985-9"
+       style="fill:#000000;fill-opacity:1" /></g></g><g
+   inkscape:groupmode="layer"
+   id="layer5"
+   inkscape:label="Play icon"
+   style="display:inline"><path
+     sodipodi:type="star"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     id="path3772"
+     sodipodi:sides="3"
+     sodipodi:cx="-44.47588"
+     sodipodi:cy="7.9199705"
+     sodipodi:r1="11.355158"
+     sodipodi:r2="5.6775789"
+     sodipodi:arg1="0"
+     sodipodi:arg2="1.0471976"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m -33.120722,7.9199705 -8.516368,4.9169275 -8.516369,4.916928 0,-9.8338558 0,-9.8338549 8.516369,4.9169278 z"
+     inkscape:transform-center-x="-2.3174109"
+     transform="matrix(0.81633763,0,0,0.81633763,121.77509,78.879817)" /></g>
 </svg>
