@@ -18,13 +18,13 @@
    enable-background="new 0 0 100 100"
    xml:space="preserve"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="headphones-filled-paused.svg"
+   sodipodi:docname="headphones-filled-with-states.svg"
    inkscape:export-filename="/home/todd/Downloads/icon_16097/icon_16097.32.png"
    inkscape:export-xdpi="28.799999"
    inkscape:export-ydpi="28.799999"><metadata
    id="metadata3067"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs3065"><linearGradient
      id="linearGradient3800"
      osb:paint="solid"><stop
@@ -44,12 +44,12 @@
    id="namedview3063"
    showgrid="false"
    inkscape:zoom="2.43"
-   inkscape:cx="36.926278"
+   inkscape:cx="-12.456438"
    inkscape:cy="49.926592"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="layer5" />
+   inkscape:current-layer="layer2" />
 <g
    inkscape:groupmode="layer"
    id="layer4"
@@ -85,14 +85,14 @@
      sodipodi:rx="20.74468"
      sodipodi:ry="20.74468"
      d="m -4.2553196,43.203308 a 20.74468,20.74468 0 1 1 -41.4893604,0 20.74468,20.74468 0 1 1 41.4893604,0 z"
-     transform="matrix(0.63990062,0,0,0.63990062,101.19732,57.908586)" /></g><g
+     transform="matrix(1.3003001,0,0,1.3003001,102.68673,14.356566)" /></g><g
    inkscape:groupmode="layer"
    id="layer3"
    inkscape:label="Pause icon"
-   style="display:none"><g
+   style="display:inline"><g
      style="display:inline"
      id="g3794"
-     transform="matrix(0.45110449,0,0,0.45110449,95.872599,66.591612)"><rect
+     transform="matrix(0.91665989,0,0,0.91665989,91.866715,32.000774)"><rect
        ry="4.3735223"
        y="21.985815"
        x="-19.177301"
@@ -110,7 +110,7 @@
    inkscape:groupmode="layer"
    id="layer5"
    inkscape:label="Play icon"
-   style="display:inline"><path
+   style="display:none"><path
      sodipodi:type="star"
      style="fill:#000000;fill-opacity:1;stroke:none"
      id="path3772"
@@ -125,6 +125,6 @@
      inkscape:rounded="0"
      inkscape:randomized="0"
      d="m -33.120722,7.9199705 -8.516368,4.9169275 -8.516369,4.916928 0,-9.8338558 0,-9.8338549 8.516369,4.9169278 z"
-     inkscape:transform-center-x="-2.3174109"
-     transform="matrix(0.81633763,0,0,0.81633763,121.77509,78.879817)" /></g>
+     inkscape:transform-center-x="-4.7090561"
+     transform="matrix(1.6588263,0,0,1.6588263,144.50147,56.970831)" /></g>
 </svg>
