@@ -1,4 +1,6 @@
 # google-music-desktop
+1.3.0 - Allowing multiple instances of Google Music for development and anything else
+
 1.2.0 - Removed playing/stopped info in tray menu. Added playing/paused icons to tray icon
 
 1.1.0 - Added playing/stopped information to tray menu
