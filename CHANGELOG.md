@@ -1,4 +1,6 @@
 # google-music-desktop
+1.4.0 - Moved to `google-music.js` node module
+
 1.3.0 - Allowing multiple instances of Google Music for development and anything else
 
 1.2.0 - Removed playing/stopped info in tray menu. Added playing/paused icons to tray icon
