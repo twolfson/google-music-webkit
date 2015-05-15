@@ -24,7 +24,7 @@
   "main": "lib/index.html",
   "single-instance": false,
   "window": {
-    "show": false,
+    "show": true,
     "show_in_taskbar": false
   },
   "webkit": {
