@@ -39,7 +39,7 @@
   "private": true,
   "dependencies": {
     "forward-events": "0.0.1",
-    "google-music": "~2.0.5",
+    "google-music": "~3.0.0",
     "obj-extend": "~0.1.0"
   }
 }
