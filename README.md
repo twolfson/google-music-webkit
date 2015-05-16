@@ -47,7 +47,7 @@ When the application has launched, it can be shown/hidden via its tray icon, ![t
 ### Music won't play
 If the music seems to attempt to load indefinitely, then there might be a codec issue. By default, [nw.js][] does not come bundled with an MPEG decoder. To remedy the issue, follow the steps in the wiki:
 
-https://github.com/nwjs/nw.js/wiki/Using-MP3-&-MP4-%28H.264%29-using-the--video--&--audio--tags.
+[https://github.com/nwjs/nw.js/wiki/Using-MP3-&-MP4-%28H.264%29-using-the--video--&--audio--tags.](https://github.com/nwjs/nw.js/wiki/Using-MP3-&-MP4-%28H.264%29-using-the--video--&--audio--tags.)
 
 #### Running without a terminal
 For running `google-music-webkit` without a terminal, start via `screen`. Once it has launched, the terminal can be closed without exiting the application.
