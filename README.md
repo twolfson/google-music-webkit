@@ -1,6 +1,6 @@
 # google-music-webkit
 
-[Google Music][] desktop client via [node-webkit][]
+[Google Music][] desktop client via [nw.js][]
 
 **Features:**
 
@@ -11,10 +11,10 @@
 ![Screenshot](docs/screenshot.png)
 
 [Google Music]: http://music.google.com/
-[node-webkit]: https://github.com/rogerwang/node-webkit
+[nw.js]: https://github.com/nwjs/nw.js
 
 ## Requirements
-- [node-webkit@0.10.1][node-webkit] or greater
+- [nw.js>=0.11.0][nw.js] or greater
 - [npm][], usually installed with [node][]
 - [Adobe Flash][], see http://music.google.com/ for dependency information
 
@@ -36,13 +36,18 @@ npm install
 # npm http 304 https://registry.npmjs.org/obj-extend
 # obj-extend@0.1.0 node_modules/obj-extend
 
-# Start the application via `node-webkit`
+# Start the application via `nw.js`
 nw .
 ```
 
 When the application has launched, it can be shown/hidden via its tray icon, ![tray icon](lib/icon.png).
 
 ![Screenshot](docs/screenshot.png)
+
+### Music won't play
+If the music seems to attempt to load indefinitely, then there might be a codec issue. By default, [nw.js][] does not come bundled with an MPEG decoder. To remedy the issue, follow the steps in the wiki:
+
+https://github.com/nwjs/nw.js/wiki/Using-MP3-&-MP4-%28H.264%29-using-the--video--&--audio--tags.
 
 #### Running without a terminal
 For running `google-music-webkit` without a terminal, start via `screen`. Once it has launched, the terminal can be closed without exiting the application.
