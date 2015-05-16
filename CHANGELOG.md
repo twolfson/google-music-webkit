@@ -1,4 +1,6 @@
 # google-music-desktop
+2.0.0 - Upgraded to `google-music.js@3.0.0` to support Material redesign
+
 1.4.0 - Moved to `google-music.js` node module
 
 1.3.0 - Allowing multiple instances of Google Music for development and anything else
