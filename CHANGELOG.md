@@ -1,4 +1,6 @@
 # google-music-webkit
+3.0.0 - Deprecated `google-music-webkit`
+
 2.0.1 - Added foundry for release
 
 2.0.0 - Upgraded to `google-music.js@3.0.0` to support Material redesign
