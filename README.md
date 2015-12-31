@@ -2,6 +2,13 @@
 
 [Google Music][] desktop client via [nw.js][]
 
+# Deprecation notice
+We have deprecated `google-music-webkit` in favor of focusing on [google-music-electron][].
+
+https://github.com/twolfson/google-music-electron
+
+[google-music-electron]: https://github.com/twolfson/google-music-electron
+
 **Features:**
 
 - Google Music as a standalone application
