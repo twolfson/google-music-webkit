@@ -41,5 +41,16 @@
     "forward-events": "0.0.1",
     "google-music": "~3.0.0",
     "obj-extend": "~0.1.0"
+  },
+  "devDependencies": {
+    "foundry": "~4.3.2",
+    "foundry-release-git": "~2.0.2",
+    "foundry-release-npm": "~2.0.2"
+  },
+  "foundry": {
+    "releaseCommands": [
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
   }
 }
