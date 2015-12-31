@@ -9,6 +9,8 @@ https://github.com/twolfson/google-music-electron
 
 [google-music-electron]: https://github.com/twolfson/google-music-electron
 
+---------
+
 **Features:**
 
 - Google Music as a standalone application
